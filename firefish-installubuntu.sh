@@ -159,7 +159,7 @@ tput setaf 3;
 echo "";
 echo "Enter host where you want to install Calckey:";
 tput setaf 7;
-read -r -p "> " -e -i "example.com" host;
+read -r -p "> " -e -i "localhost" host;
 tput setaf 7;
 hostarr=(${host//./ });
 echo "OK, let's install $host!";
