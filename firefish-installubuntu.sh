@@ -720,7 +720,7 @@ $($cloudflare || echo "        proxy_set_header X-Forwarded-Proto https;")
     }
 }
 NGEOF
-
+mv /etc/nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf.bak
 nginx -t;
 
 tput setaf 3;
