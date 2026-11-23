@@ -142,7 +142,7 @@ calckey_directory=calckey
 
 if [ $method != "docker_hub" ]; then
 	echo "Repository url where you want to install:"
-	read -r -p "> " -e -i "https://codeberg.org/calckey/calckey.git" repository;
+	read -r -p "> " -e -i "https://github.com/anyopr/firefish-test.git" repository;
 	echo "The name of a new directory to clone:"
 	read -r -p "> " -e -i "calckey" calckey_directory;
 	echo "Branch or Tag (main or beta)"
