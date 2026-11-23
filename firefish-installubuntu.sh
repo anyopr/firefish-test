@@ -749,7 +749,7 @@ if $db_local; then
 	echo "Process: install postgres;"
 	tput setaf 7;
 	apt -qq install -y postgresql-common;
-	sh /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh -i -v 15;
+	sh /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh -i -v 16;
 
 	tput setaf 3;
 	echo "Process: create user and database on postgres;"
